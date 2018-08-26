@@ -1,5 +1,5 @@
-FROM node:6-alpine
-MAINTAINER "Dan Farrelly <daniel.j.farrelly@gmail.com>"
+FROM resin/raspberry-pi-alpine-node:6.10.3-slim
+MAINTAINER "Volodymyr Kovalenko"
 
 ENV NODE_ENV production
 
